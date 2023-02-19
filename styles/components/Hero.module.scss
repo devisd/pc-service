@@ -1,0 +1,21 @@
+.hero {
+  position: relative;
+}
+
+.hero__image {
+  display: block;
+}
+
+.hero__title {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 140%;
+  color: #ffffff;
+  width: 590px;
+  text-align: center;
+}

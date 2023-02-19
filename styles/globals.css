@@ -1,5 +1,5 @@
 :root {
-  --max-width: 1920px;
+  --max-width: 1240px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
@@ -28,7 +28,6 @@ li,
 body {
   margin: 0;
   padding: 0;
-  background-color: #180a0a;
 }
 
 html {

@@ -1,0 +1,50 @@
+.nav {
+  .nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .nav__item {
+      &:not(:last-child) {
+        margin-right: 56px;
+
+        &:nth-child(4n) {
+          margin-right: 300px;
+        }
+      }
+
+      .nav__link {
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #ffffff;
+        border-bottom: transparent;
+        cursor: pointer;
+
+        &:hover {
+          border-bottom: 3px solid #ffffff;
+        }
+      }
+
+      .nav__button {
+        color: #ffffff;
+        padding: 10px 20px;
+        background-image: linear-gradient(
+          to right,
+          #603813 0%,
+          #603813 61%,
+          #b29f94 100%
+        );
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+          box-shadow: 0 0 10px #eee;
+        }
+      }
+    }
+  }
+}

@@ -1,13 +1,16 @@
 {
   "name": "pc-service",
   "version": "0.1.0",
+  "homepage": "https://devisd.github.io/pc-service/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -18,9 +21,12 @@
   },
   "devDependencies": {
     "eslint": "^8.34.0",
+    "gh-pages": "^5.0.0",
     "husky": ">=7",
     "lint-staged": ">=10",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "prop-types": "^15.8.1",
+    "sass": "^1.58.3"
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --cache --fix",
